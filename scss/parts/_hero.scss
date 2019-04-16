@@ -1,0 +1,13 @@
+.hero {
+    position: relative;
+    &__title {
+        font-size: 60px;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+
+    &__discription {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+}

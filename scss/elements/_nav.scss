@@ -1,0 +1,23 @@
+.nav {
+    &__item {
+        margin-right: 40px;
+    }
+
+    &__item::after {
+        margin-right: 0;
+    }
+
+    &__link {
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-black;
+
+        &--active,
+        &:hover {
+            border-top: 2px solid $color-orange;
+            padding-top: 9px;
+        }
+    }
+    
+}

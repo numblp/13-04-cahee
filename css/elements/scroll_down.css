@@ -1,0 +1,29 @@
+.scroll__btn {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 30px;
+  bottom: 60px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none; }
+
+.scroll__btn:before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #000;
+  border-radius: 100%;
+  -webkit-animation: animation 2s infinite;
+  animation: animation 2s infinite;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }

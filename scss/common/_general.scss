@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-raleway;
+    font-size: 17px;
+}
+
+ul {
+    display: flex;
+}
+
+p {
+    line-height: 27px;
+}
+
+.grid {
+    width: 1170px;
+    margin: 0 auto;
+}

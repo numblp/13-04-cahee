@@ -1,0 +1,60 @@
+.scroll {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,50%);
+
+    &__btn {
+        position: relative;
+        width: 24px;
+        height: 40px;
+        border-radius: 25px;
+        background: transparent;
+        border: 2px solid $color-black;
+        overflow: hidden;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 3px;
+            height: 8px;
+            border-radius: 50%;
+            background: $color-black;
+            left: 50%;
+            top: 5px;
+            transform: translate(-50%,0);
+            animation: animate 1s linear infinite;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 3px;
+            height: 8px;
+            border-radius: 50%;
+            background: $color-black;
+            left: 50%;
+            top: 5px;
+            transform: translate(-50%,0);
+            border-radius: 3px;
+        }
+
+        @keyframes animate {
+            0%
+            {
+                transform: translate(-50%,10px); 
+                opacity: 0;
+            }
+            80%
+            {
+                transform: translate(-50%,30px);
+                opacity: 1;
+            }
+            100%
+            {
+                transform: translate(-50%,60px);
+                opacity: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.scroll {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%); }
+  .scroll__btn {
+    position: relative;
+    width: 50px;
+    height: 80px;
+    border-radius: 25px;
+    background: transparent; }

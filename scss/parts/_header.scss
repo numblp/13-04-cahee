@@ -1,0 +1,18 @@
+.header {
+    background-image: url(/img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 250px;
+
+    ul {
+        display: flex;
+    }
+}
