@@ -1,0 +1,31 @@
+.subscribe {
+    background: url('../../img/subscribe-bg.png');
+    padding: 140px 0 160px;
+
+    &__title {
+        font-size: 40px;
+        color: $color-black;
+        margin-bottom: 30px;
+    }
+
+    &__discription {
+        margin-bottom: 30px;
+    }
+
+    &__form {
+        border: none;
+        margin-right: 25px;
+        border: 1px solid $color-black;
+        width: 75%;
+        padding: 20px;
+    }
+
+    &__btn {
+        border: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        background-color: $color-green;
+        color: $color-white;
+        padding: 18px 20px;
+    }
+}

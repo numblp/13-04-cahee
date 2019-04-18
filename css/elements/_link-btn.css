@@ -1,0 +1,7 @@
+.btn__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  width: 200px;
+  text-transform: uppercase; }

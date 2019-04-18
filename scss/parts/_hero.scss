@@ -1,4 +1,5 @@
 .hero {
+    padding-bottom: 400px;
     position: relative;
     &__title {
         font-size: 60px;
@@ -9,5 +10,9 @@
     &__discription {
         font-size: 17px;
         margin-bottom: 30px;
+    }
+    
+    .btn__link {
+        background-color: $color-orange;
     }
 }

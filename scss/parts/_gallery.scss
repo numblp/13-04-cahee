@@ -1,0 +1,35 @@
+.gallery {
+    background-color: $color-yellow;
+    padding: 100px 0 110px;
+    font-size: 0;
+
+    &__title {
+        color: $color-black;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__description {
+        color: $color-black;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 17px;
+    }
+
+    img {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    &__link {
+        display: block;
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+        margin-bottom: 22px;
+        margin-right: 5px;
+    }
+
+    .btn__link {
+        display: flex;
+        margin: 22px auto 0;
+    }
+}
